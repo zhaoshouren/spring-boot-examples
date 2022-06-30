@@ -4,17 +4,22 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.zs.bom</groupId>
+  <groupId>example.bom</groupId>
   <artifactId>example-bom</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>example-bom</name>
-  <description>Example BOM (Bill of Materials</description>
+  <description>Example BOM (Bill of Materials)</description>
 
   <dependencyManagement>
     <dependencies>
       <!-- add dependencies -->
+      <dependency>
+        <groupId>example.bom</groupId>
+        <artifactId>example-spring-boot-starter-actuator</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 

@@ -8,8 +8,8 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>org.zs.boot</groupId>
-	<artifactId>zs-spring-boot-starter-actuator</artifactId>
+	<groupId>example.boot</groupId>
+	<artifactId>example-spring-boot-starter-actuator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Sample Custom Actuator</name>
 	<description>Demo project for Spring Boot with custom autoconfigured actuator</description>

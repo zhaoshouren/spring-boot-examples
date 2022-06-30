@@ -1,4 +1,4 @@
-package org.zs.boot.actuator;
+package example.boot.actuator;
 
 import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;

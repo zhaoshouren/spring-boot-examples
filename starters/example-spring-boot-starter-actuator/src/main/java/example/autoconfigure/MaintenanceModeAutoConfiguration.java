@@ -1,9 +1,9 @@
-package org.zs.autoconfigure;
+package example.autoconfigure;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import org.zs.boot.actuator.MaintenanceModeHealthIndicator;
+import example.boot.actuator.MaintenanceModeHealthIndicator;
 
 @Configuration
 public class MaintenanceModeAutoConfiguration {
